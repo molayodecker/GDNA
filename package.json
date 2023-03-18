@@ -1,0 +1,16 @@
+{
+  "name": "g-dna-wordpress-theme",
+  "version": "1.0.0",
+  "description": "Default theme for Ghanaian - Diaspora Nursing Alliance",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./theme.css -o ./src/css/style.css",
+    "watch": "tailwindcss -i ./theme.css -o ./src/css/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}

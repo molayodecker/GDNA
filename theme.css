@@ -1,0 +1,339 @@
+/*
+Theme Name: Ghanaian Diaspora Nursing Association
+Text Domain: Ghanaian Diaspora Nursing Association
+Description:
+Version: 1.0.0
+Tags: GhanaianDiasporaNursingAssociation G-DNA 
+Author: Molayo Decker
+Author URL: molayodecker.com 
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    height: 100%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@layer components {
+  .gd-nav-primary {
+    @apply hidden items-center space-x-10 capitalize text-boldBlue text-base font-medium font-sans md:flex;
+  }
+  .gd-nav-primary a {
+    @apply tracking-widest hover:text-softRed;
+  }
+
+  .hero-max-h {
+    max-height: 720px;
+  }
+
+  .from-hero-gradient {
+    --tw-gradient-from: #63d471;
+    --tw-gradient-to: rgb(35, 51, 41);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  }
+
+  .from-news-gradient {
+    --tw-gradient-from: #fbd72b;
+    --tw-gradient-to: rgb(251, 176, 52);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  }
+
+  .hero-title {
+    font-family: Tinos;
+    @apply px-10 mt-[380px] text-white text-4xl lg:top-[400px] lg:text-6xl;
+  }
+
+  .hero {
+    @apply flex mt-8 mx-auto;
+  }
+
+  .hero-img {
+    @apply z-10 max-w-none w-full mx-auto opacity-5 object-cover
+      overflow-x-hidden;
+  }
+
+  .hero-join {
+    font-weight: 700;
+    @apply lg:px-10 lg:py-2 lg:text-xl text-2xl px-5 py-1 text-center text-white bg-[#de2f3d] rounded-full shadow-md hover:bg-[#f84c4c];
+  }
+
+  .news-container {
+    border-image: linear-gradient(to bottom, #eab308, rgba(0, 0, 0, 0)) 1 100%;
+    @apply container lg:mx-8 md:mx-8 my-2 space-y-2 border-x-2 border-yellow-500;
+  }
+
+  .news-container a {
+    /* @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600; */
+    @apply text-black hover:text-blue-800 hover:underline;
+  }
+
+  .news-container h1 {
+    @apply text-base lg:text-xl;
+  }
+
+  .news-container p {
+    margin: none;
+  }
+
+  .ncfml-500 {
+    margin-left: 500px;
+  }
+
+  .news-container-features {
+    border-image: linear-gradient(to bottom, #023020, rgba(0, 0, 0, 0)) 1 100%;
+    @apply container lg:mx-8 md:mx-8 my-2 border-x-2 border-green-500;
+  }
+
+  .news-container-features a {
+    /* @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600; */
+    @apply text-black hover:text-blue-800 hover:underline;
+  }
+
+  .news-container-features h1 {
+    @apply text-base lg:text-xl;
+  }
+
+  .news-title-feature {
+    @apply text-center bg-[#023020] py-2 text-lg lg:py-6 text-white;
+  }
+
+  .news-title {
+    background-color: #eab308;
+    @apply text-center bg-[#EAB308] py-2 text-lg lg:py-6;
+  }
+
+  .animate_logo {
+    animation-name: animate_bg;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    border-radius: 20px;
+  }
+
+  .animate_logo:hover {
+    -webkit-animation: y-axis-animation 1s ease-in-out 0s infinite alternate;
+    animation: y-axis-animation 1s ease-in-out 0s infinite alternate;
+  }
+
+  .animate_logo:hover:after {
+  }
+
+  @keyframes y-axis-animation {
+    from {
+      -webkit-transform: rotateY(20deg);
+      transform: rotateY(20deg);
+    }
+    to {
+      -webkit-transform: rotateY(-20deg);
+      transform: rotateY(-20deg);
+    }
+  }
+
+  @keyframes animate_bg {
+    0% {
+      background-color: green;
+      transform: scale(0, 0.025);
+    }
+    50% {
+      background-color: green;
+      transform: scale(1, 0.025);
+    }
+    100% {
+      background-color: none;
+    }
+  }
+
+  .news-bg-section {
+    background-image: url("./assets//images/dance.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+  }
+
+  .grid-scroller {
+    display: grid;
+    /* grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr; */
+    grid-auto-flow: column;
+    grid-gap: 5px;
+    grid-auto-columns: 25%;
+    overflow-x: auto !important;
+    overscroll-behavior-inline: contain;
+    @apply ml-1;
+  }
+
+  .scroller {
+    display: flex;
+    /* width: calc(250px * 35); */
+    /* -webkit-animation: scroll 40s linear infinite;
+    animation: scroll 40s linear infinite;
+    place-items: center; */
+    /* border: 3px solid hotpink; */
+  }
+
+  .scroller:hover {
+    animation-play-state: paused;
+  }
+
+  @keyframes scroll {
+    0% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-72%);
+      transform: translateX(-72%);
+    }
+  }
+
+  .grid-scroller .tall {
+    grid-column: span 2;
+  }
+
+  .grid-scroller .tall:hover {
+    /* transform: scale(1.2); */
+    overflow: hidden;
+    z-index: 100px;
+  }
+
+  .grid-scroller > div > img {
+    inline-size: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    aspect-ratio: 16 / 9;
+  }
+
+  .grid-scroller > div > img:nth-child(2) {
+    @apply mt-1;
+  }
+
+  .footer-collab {
+    @apply mb-6 flex space-x-3 justify-center items-center;
+  }
+
+  .footer-collab > img {
+    @apply w-8 rounded-full bg-white md:w-10 lg:w-14;
+  }
+
+  /* HAMBURGER MENU */
+
+  .hamburger {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+    position: relative;
+    margin: 5px;
+  }
+
+  .hamburger-top,
+  .hamburger-middle,
+  .hamburger-bottom {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 3px;
+    top: 0;
+    left: 0;
+    background: #000;
+    transform: rotate(0);
+    transition: all 0.5s;
+  }
+
+  .hamburger-middle {
+    transform: translateY(7px);
+  }
+
+  .hamburger-bottom {
+    transform: translateY(14px);
+    background: #000;
+  }
+
+  .open {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+    position: fixed;
+    top: 50px;
+    right: 25px;
+  }
+
+  .open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translateX(6px);
+    background-color: #fff;
+  }
+
+  .open .hamburger-middle {
+    display: none;
+  }
+
+  .open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translateX(-6px);
+    background-color: #fff;
+  }
+
+  .h4,
+  h4 {
+    font-size: 2.625rem;
+    line-height: 110%;
+    letter-spacing: -1px;
+    @apply px-2 py-2 mb-2 text-rose-600 font-semibold;
+  }
+
+  article {
+    @apply font-sans font-normal;
+    background: #f5f6f8;
+    color: #434343;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.post-content {
+  background: #fff;
+  box-shadow: 0 0.3rem 0.3rem rgb(0 0 0 / 16%);
+  margin: 2% 30% 2% 2%;
+  padding: 40px;
+}
+
+.post-content h1 {
+  color: #166534;
+  font-size: 4rem;
+  line-height: 1.06;
+}
+
+.post-content p {
+  line-height: 2;
+}
+
+.post-content .tags {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  @apply text-gray-300;
+}
+
+.post-readmore {
+  @apply text-red-300;
+}
+
+.post-readmore:hover {
+  @apply text-red-600;
+}
+
+.form-holder {
+  background: #fff;
+  padding: 3rem;
+  margin-bottom: 3rem;
+  -webkit-box-shadow: 0 0.1rem 0.2rem rgb(0 0 0 / 16%);
+  box-shadow: 0 0.1rem 0.2rem rgb(0 0 0 / 16%);
+}
+
+.form-holder-button .wpforms-submit {
+  @apply rounded-full bg-green-700 !important;
+}
