@@ -10,11 +10,11 @@
   <link rel="shortcut icon" href="" >
 </head>
 <body class="overflow-x-hidden">
-  <div class="nav container relative mx-auto pt-3 mb-0">
+  <nav class="container relative mx-auto pt-3 mb-0">
     <!--flex container for nav items -->
-    <div class="flex items-center justify-between space-x-20 my-2" style="perspective:200px; perspective-origin: 100% 50%;">
+    <div class="flex items-center justify-between space-x-20 my-2">
       <!-- Logo -->
-      <div class="flex flex-row align-center z-30 w-52 animate_logo">
+      <div class="flex z-30 flex-row align-center w-52 animate_logo">
         <img class="xs:w-[450px]" src="./assets/images/g-dna-logo-default.webp" alt="" id="logo">
       </div>
       <!-- Menu Items -->
@@ -24,33 +24,46 @@
         <a href="#advocate" class="tracking-widest hover:text-softRed">advocacy</a>
         <a href="#training" class="tracking-widest hover:text-softRed">events</a>
         <a href="#training" class="tracking-widest hover:text-softRed">media</a>
-        <a href="#training" class="tracking-widest hover:text-softRed">about</a>
+        <div class="dropdown" data-dropdown>
+          <button class="link tracking-widest capitalize hover:text-softRed" data-dropdown-button>about</button>
+          <div class="dropdown-menu information-grid">
+            <div>
+              <div class="drop-down-content">
+                <div class="dropdown-heading">About G-DNA</div>
+                <div class="dropdown-links">
+                  <a href="#" class="link">Mission and Vision</a>
+                  <a href="#" class="link">Profile</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <a href="#" class="px-8 py-2 text-white bg-softRed border-2 border-softRed rounded-lg shadow-md hover:text-softRed hover:bg-white">
           Donate
         </a>
       </div>
+      <button id="menu-btn" class="z-30 block md:hidden focus:outline-none hamburger">
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+      </button>
     </div>
-  </div>
+    <div id="menu" class="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-32 pb-4 tracking-widest text-white uppercase divide-y divide-grey-500 opacity-90 bg-veryDarkBlue">
+      <div class="w-full py-3 text-center">
+        <a href="#features" class="block hover:text-softRed">features</a>
+      </div>
+      <div class="w-full py-3 text-center">
+        <a href="#features" class="block hover:text-softRed">Media</a>
+      </div>
+      <div class="w-full py-3 text-center">
+        <a href="#features" class="block hover:text-softRed">News</a>
+      </div>
+      <div class="w-full py-3 text-center">
+        <a href="#features" class="block hover:text-softRed">Download</a>
+      </div>
+    </div>
+  </nav>
   <!-- Hamburger menu-->
-  <button id="menu-btn" class="z-30 block md:hidden focus:outline-none hamburger">
-    <span class="hamburger-top"></span>
-    <span class="hamburger-middle"></span>
-    <span class="hamburger-bottom"></span>
-  </button>
-  <div id="menu" class="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-grey-500 opacity-90 bg-veryDarkBlue">
-    <div class="w-full py-3 text-center">
-      <a href="#features" class="block hover:text-softRed">features</a>
-    </div>
-    <div class="w-full py-3 text-center">
-      <a href="#features" class="block hover:text-softRed">Media</a>
-    </div>
-    <div class="w-full py-3 text-center">
-      <a href="#features" class="block hover:text-softRed">News</a>
-    </div>
-    <div class="w-full py-3 text-center">
-      <a href="#features" class="block hover:text-softRed">Download</a>
-    </div>
-  </div>
   <!-- Hero Section-->
   <section id="hero" style="background-image: linear-gradient(to bottom, rgba(99, 212, 113, 0.52), rgba(35, 51, 41, 0.80)), url('./assets/images/blackstar.webp'); background-size: cover; background-position: center center !important;">
     <div class="container max-w-none flex justify-evenly flex-wrap align-center text-center">
