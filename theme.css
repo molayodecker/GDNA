@@ -336,12 +336,9 @@ Author URL: molayodecker.com
     background-color: #fff;
   }
 
-  #menu-btn {
-    margin-left: 30px
-/*    margin-left: 30px;
-    margin-bottom: -10px;
-    margin-right: 0;
-    padding: 20px;*/
+  .mobile-menu {
+    margin-left: 40px;
+    @apply z-50 block md:hidden focus:outline-none hamburger;
   }
 
   .h4,
@@ -392,22 +389,22 @@ Author URL: molayodecker.com
 
 .mobile-nav-with-action-bar {
   top: 98px;
-  @apply fixed bg-white w-full hidden xs:block;
+  @apply bg-white w-full hidden xs:block xxs:block;
 }
 
 .mobile-nav-without-action-bar {
   top: 0;
-  @apply fixed bg-white w-full;
+  @apply bg-white w-full;
 }
 
 .logo-avatar-with-action-bar {
   top: 98px;
-  @apply fixed right-0 pr-4 hidden xs:block;
+  @apply right-0 pr-4 hidden xs:block xxs:block;
 }
 
 .logo-avatar-without-action-bar {
   top: 0;
-  @apply fixed right-0 pr-4 hidden xs:block;
+  @apply right-0 pr-4 hidden xs:block xxs:block;
 }
 
 .action-bar {
@@ -418,7 +415,7 @@ Author URL: molayodecker.com
     color: #fff;
     padding: 7px;
     position: relative !important;
-    @apply flex flex-col leading-7 justify-center drop-shadow-2xl text-center lg:flex-row md:flex-row xs:fixed !important;
+    @apply flex flex-col leading-7 justify-center drop-shadow-2xl text-center lg:flex-row md:flex-row;
 }
 
 }

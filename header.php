@@ -1,3 +1,4 @@
+<div class="fixed top-0 right-0 left-0">
 <?php if(strtotime('2023-05-11') > time()): ?>
 <div class="action-bar" style="dislay: flex; text-align: center; background-color: rgb(242,67,24); color: #fff; padding: 7px;">
     <strong style="font-size: 20px;">International Nurses Day 2023 Webinar</strong>
@@ -9,9 +10,9 @@
     </span>
 </div>
 <?php endif; ?>
-<div <?php echo (strtotime('2023-05-11') > time()) ? 'class="mobile-nav-with-action-bar"' : 'class="mobile-nav-without-action-bar"' ?> >
+<div <?php echo (strtotime('2023-05-11') > time()) ? 'class="mobile-nav-with-action-bar flex flex-row justify-between"' : 'class="mobile-nav-without-action-bar flex flex-row justify-between"' ?> >
     <div>
-        <button id="menu-btn" class="z-50 block md:hidden focus:outline-none hamburger">
+        <button id="menu-btn" class="mobile-menu">
         <span class="hamburger-top"></span>
         <span class="hamburger-middle"></span>
         <span class="hamburger-bottom"></span>
@@ -35,6 +36,7 @@
     <div  <?php echo (strtotime('2023-05-11') > time()) ? 'class="logo-avatar-with-action-bar"' : 'class="logo-avatar-without-action-bar"' ?> >
         <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="<?php echo get_template_directory_uri(); ?>/assets/images/g-dna-logo-default.webp" alt="" id="logo">
     </div>
+</div>
 </div>
 <!doctype html>
 <html>
