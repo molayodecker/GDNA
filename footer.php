@@ -167,7 +167,7 @@
                 <a href="https://g-dna.org/index.php/contact-us" class="text-white">Contact Us</a>
               </li>
               <li>
-                <a href="https://checkout.stripe.com/c/pay/cs_live_a1o1a9U77tZSOlqyoLSRk5zJcgMJ2Y9FZnbXmRnA03mnQVHtQFTe4E9zqn#fidkdWxOYHwnPyd1blppbHNgWjA0SE9qa1NHVldpN1xfUkFfdDddQXB9ZD1iZkdsYGZOdjRfS180V2NJfDVyPHFWf0FETnxOYEFLcEJNf3JRTGA2UmJmRm48cnRkTkF1V1BdPEtyPU5TN1M9NTVNVX13RDVuMycpJ3VpbGtuQH11anZgYUxhJz8nPXJIZ0xSYmdSYFwyZzRWYVRUJ3gl" class="text-white">Donate Now</a>
+                <a href="https://buy.stripe.com/8wMbIWgbWeY7b1SdQQ" class="text-white">Donate Now</a>
               </li>
               <li>
                 <a href="#!" class="text-white">Ways to Give</a>
@@ -176,7 +176,7 @@
                 <a href="#!" class="text-white">Advocate</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Become a member</a>
+                <a href="https://g-dna.org/index.php/membership/" class="text-white">Become a member</a>
               </li>
             </ul>
           </div>

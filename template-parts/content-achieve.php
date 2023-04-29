@@ -1,8 +1,8 @@
-<div class="container post-content">
+<div class="post-content">
     <?php if (has_post_thumbnail()) {?>
     <img src="<?php the_post_thumbnail('thumbnail');?>" alt="thumbnail">
     <?php } ?>
-    <h1><?php the_title(); ?></h1>
+    <h2><?php the_title(); ?></h2>
     <div class="tags">
         <span><?php the_date() ?></span>
     </div>

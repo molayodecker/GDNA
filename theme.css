@@ -31,6 +31,54 @@ Author URL: molayodecker.com
     @apply tracking-widest hover:text-softRed;
   }
 
+  .donate_button {
+    @apply hidden px-8 py-2 text-white bg-softRed border-2 border-softRed rounded-lg shadow-md hover:text-softRed hover:bg-white md:flex;
+  }
+
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    left: 0;
+    top: calc(100% + .5rem);
+    background-color: white;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0 ,0, .1);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+  }
+
+  .dropdown-links a {
+    @apply font-light
+  }
+
+  .dropdown.active > .header-link + .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .information-grid {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: .40rem !important;
+  }
+
+  .dropdown-links {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+  }
+
+  .drop-down-content {
+    padding: 10px 0px;
+  }
+
   .hero-max-h {
     max-height: 720px;
   }
@@ -45,6 +93,14 @@ Author URL: molayodecker.com
     --tw-gradient-from: #fbd72b;
     --tw-gradient-to: rgb(251, 176, 52);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  }
+
+  .logo {
+    @apply w-16 hidden lg:block;
+  }
+
+  .flex-container-nav-items {
+    @apply flex items-center justify-between space-x-20 mt-6;
   }
 
   .hero-title {
@@ -118,13 +174,13 @@ Author URL: molayodecker.com
     border-radius: 20px;
   }
 
-  .animate_logo:hover {
+/*  .animate_logo:hover {
     -webkit-animation: y-axis-animation 1s ease-in-out 0s infinite alternate;
     animation: y-axis-animation 1s ease-in-out 0s infinite alternate;
   }
 
   .animate_logo:hover:after {
-  }
+  }*/
 
   @keyframes y-axis-animation {
     from {
@@ -263,6 +319,7 @@ Author URL: molayodecker.com
     position: fixed;
     top: 50px;
     right: 25px;
+    z-index: 50;
   }
 
   .open .hamburger-top {
@@ -279,6 +336,14 @@ Author URL: molayodecker.com
     background-color: #fff;
   }
 
+  #menu-btn {
+    margin-left: 30px
+/*    margin-left: 30px;
+    margin-bottom: -10px;
+    margin-right: 0;
+    padding: 20px;*/
+  }
+
   .h4,
   h4 {
     font-size: 2.625rem;
@@ -293,18 +358,95 @@ Author URL: molayodecker.com
     color: #434343;
     -webkit-font-smoothing: antialiased;
   }
+
+  .event-item-block {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .event-item-block .subtitle-holder {
+    margin: 0 0 3.1rem;
+    @apply flex flex-wrap justify-between items-center;
+  }
+
+  .event-item-block .subtitle {
+    @apply block italic text-[#0c3863];
+  }
+
+  .event-info {
+    @apply flex flex-wrap;
+  }
+
+  .action-bar-button {
+  border-radius: 0.25rem;
+  background-color: rgb(59 130 246);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 700;
+  color: rgb(255 255 255);
+}
+
+.action-bar-button:hover {
+  background-color: rgb(29 78 216);
+}
+
+.mobile-nav-with-action-bar {
+  top: 98px;
+  @apply fixed bg-white w-full hidden xs:block;
+}
+
+.mobile-nav-without-action-bar {
+  top: 0;
+  @apply fixed bg-white w-full;
+}
+
+.logo-avatar-with-action-bar {
+  top: 98px;
+  @apply fixed right-0 pr-4 hidden xs:block;
+}
+
+.logo-avatar-without-action-bar {
+  top: 0;
+  @apply fixed right-0 pr-4 hidden xs:block;
+}
+
+.action-bar {
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: rgb(242, 67, 24);
+    color: #fff;
+    padding: 7px;
+    position: relative !important;
+    @apply flex flex-col leading-7 justify-center drop-shadow-2xl text-center lg:flex-row md:flex-row xs:fixed !important;
+}
+
+}
+
+.breadcrumps-active {
+  @apply text-neutral-500 dark:text-neutral-400 normal-case;
+}
+
+.breadcrumps {
+  margin: 2% 2% 2% 2%;
 }
 
 .post-content {
   background: #fff;
   box-shadow: 0 0.3rem 0.3rem rgb(0 0 0 / 16%);
-  margin: 2% 30% 2% 2%;
+  margin: 2% 2% 2% 2%;
   padding: 40px;
 }
 
 .post-content h1 {
   color: #166534;
   font-size: 4rem;
+  line-height: 1.06;
+}
+
+.post-content h2 {
+  color: #166534;
+  font-size: 2.25rem; 
   line-height: 1.06;
 }
 
@@ -337,3 +479,4 @@ Author URL: molayodecker.com
 .form-holder-button .wpforms-submit {
   @apply rounded-full bg-green-700 !important;
 }
+

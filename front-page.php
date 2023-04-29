@@ -1,12 +1,6 @@
 <?php get_header() ?>
-  <!-- Hamburger menu-->
-  <button id="menu-btn" class="z-50 block md:hidden focus:outline-none hamburger">
-    <span class="hamburger-top"></span>
-    <span class="hamburger-middle"></span>
-    <span class="hamburger-bottom"></span>
-  </button>
   <!-- Hero Section-->
-  <section id="hero" style="background-image: linear-gradient(to bottom, rgba(99, 212, 113, 0.52), rgba(35, 51, 41, 0.80)), url('<?php echo get_template_directory_uri(); ?>/assets/images/blackstar.webp'); background-size: cover; background-position: center center !important;">
+  <section id="hero" style="background-image: linear-gradient(to bottom, rgba(99, 212, 113, 0.52), rgba(35, 51, 41, 0.80)), url('https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/backgroundImages/a2kl4rmtyoq69ormsn5a'); background-size: cover; background-position: center center !important;">
     <div class="container max-w-none flex justify-evenly flex-wrap align-center text-center">
         <div>
           <h1 class="hero-title">
@@ -16,16 +10,16 @@
                         the_post();
                         the_content();
                     }
-                } 
+                }
             ?>
           </h1>
         </div>
         <div class="my-16">
-          <a href="#" class="hero-join">Join Now</a>
+          <a href="https://g-dna.org/index.php/membership/" class="hero-join">Join Now</a>
         </div>
     </div>
   </section>
-  <section id="news" style="background-image: linear-gradient(to bottom, rgba(254, 243, 199, 0.52), rgba(252, 211, 77, 0.80)), url('<?php echo get_template_directory_uri(); ?>/assets/images/dance.webp'); background-size: cover; background-position: center center !important;">
+  <section id="news" style="background-image: linear-gradient(to bottom, rgba(254, 243, 199, 0.52), rgba(252, 211, 77, 0.80)), url('https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/backgroundImages/kcfd161zbdgfpbdrx8lo'); background-size: cover; background-position: center center !important;">
     <div class="flex flex-col justify-evenly flex-wrap align-center py-6">
       <div id="news-container" class="news-container">
         <div class="news-title">Latest GDNA News</div>
@@ -54,90 +48,90 @@
     <h4>Join a thriving community.</h4>
       <!--photo grid-->
       <div class="scroller">
-        <div class="grid-scroller" style="grid-auto-flow: column;">
+      <div class="grid-scroller" style="grid-auto-flow: column;">
           <div class="tall">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/20.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/nkjyi1h8jmhhh9s5ieet" alt="">
           </div>
           <div class="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/1.webp" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/30.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/b35jh1eanoxnclqse1ms" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/gixf2ffwtur1zrhbzo1r" alt="">
           </div>
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/2.webp" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/3.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/srpkbrcwz8qagokt79s7" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/rxyz4i8pt8x5liedjniw" alt="">
           </div>
           <div class="tall">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/7.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/gr28ljgo25rxyu5vojav" alt="">
           </div>
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/4.webp" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/29.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/nqvr8dmcfw0pumwivanx" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/ts3h7efmxuqkoouv0vv1" alt="">
           </div>
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/5.webp" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/28.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/arsuhxkeuziovqqahgjb" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/uznogz351k1ulcrdf179" alt="">
           </div>
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/6.webp" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/31.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/ld9dgle5zsxmqwcwhvbt" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/c4gq1ug6letby3hxe7fl" alt="">
           </div>
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/8.webp" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/32.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/thhj6rp1qk1gwpgkovxh" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/jrkudxpyrkmtiwf7wosw" alt="">
           </div>
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/9.webp" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/33.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/qghqgtuqqcpa818susel" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/kmob2imq6ofyesp85xa1" alt="">
           </div>
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/10.webp" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/11.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/sqfpctmdphz1kz4y4n96" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/cukpcudcgvozpimkfjl4" alt="">
           </div>
           <div class="tall">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/12.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/qm9dpcnajeohd6ztxvy0" alt="">
           </div>
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/13.webp" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/14.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/fcsbsrbahzu4jpl3dbtv" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/guwx0xqpqp4ky2bhviby" alt="">
           </div>
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/16.webp" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/15.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/uly8hgmtbj3jcmmqpt2m" alt="">
+            <img src="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/xexwrywg3xhgnsgncj60" alt="">
           </div>
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/17.webp" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/34.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/pd39ccqfknqnkzgthuh2" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/vtizxm35vbcxtsqqypfr" alt="">
           </div>
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/18.webp" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/19.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/jxgdihw7wp7cjivo0lgc" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/ntrp7q2q1btdryue3qbs" alt="">
           </div>
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/21.webp" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/35.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/ucznevgqrigjuyvee0bn" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/ed483d3ve57hdkkx8sez" alt="">
           </div>
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/22.webp" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/26.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/mz5kxy4kpu5oaiwoaj65" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/oudilhuekquhoqazydrv" alt="">
           </div>
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/23.webp" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/32.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/fqcpaoalsqjnhvxkqqmz" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/jrkudxpyrkmtiwf7wosw" alt="">
           </div>
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/36.webp" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/37.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/ilcx9hqt0tqzmb7vetzq" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/jrkudxpyrkmtiwf7wosw" alt="">
           </div>
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/38.webp" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/39.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/jlstb7ath69pzehcd0ex" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/gcjo1xhnxbcuwks67xtb" alt="">
           </div>
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/24.webp" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/25.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/xjmyajwxlelgmmjavfbn" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/unanzixuntqf2wktfoi5" alt="">
           </div>
           <div class="tall">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/grid/27.webp" alt="">
+            <img data-bg="https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/grid/diya5l7gy4zjghd9k8po" alt="">
           </div>
         </div>
       </div>

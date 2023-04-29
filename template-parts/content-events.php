@@ -14,7 +14,7 @@
     <li style="text-transform: lowercase; margin-left: 2px;"><?php the_title(); ?></li>
   </ol>
 </nav>
-<div>
+</div>
 <div class="post-content">
     <p><?php the_content(); ?></p>
 </div>
