@@ -3,7 +3,7 @@ module.exports = {
   content: ["./*.{html,php,js}"],
   theme: {
     screens: {
-      xs: "475px",
+      xs: "360px",
       sm: "500px",
       md: [
         // Sidebar appears at 768px, so revert to `sm:` styles between 768px

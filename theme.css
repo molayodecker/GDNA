@@ -391,8 +391,8 @@ Author URL: molayodecker.com
 }
 
 .mobile-nav-with-action-bar {
-  top: 98px;
-  @apply fixed bg-white w-full hidden xs:block;
+  top: 170px;
+  @apply fixed w-full hidden xs:block;
 }
 
 .mobile-nav-without-action-bar {
@@ -401,7 +401,7 @@ Author URL: molayodecker.com
 }
 
 .logo-avatar-with-action-bar {
-  top: 98px;
+  top: 160px;
   @apply fixed right-0 pr-4 hidden xs:block;
 }
 
