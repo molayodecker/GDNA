@@ -13,4 +13,13 @@ document.addEventListener("DOMContentLoaded", () => {
             image.style.backgroundRepeat = "no-repeat";
         });
     })();
+    const pathUrl = 'http://res.cloudinary.com/dwbs6mbsy/image/upload/h_100,l_gdna:backgroundImages:play-button-icon-png-18910_kvhki0,w_100/v1/gdna/backgroundImages/';
+    const gifImages = ['G-DNA_GrantVideo_Final_2_2_plnw0t', 'G-DNA_GrantVideo_Final_2_1_cq5tjx', 'G-DNA_GrantVideo_Final_2_3_krvnfb', 'G-DNA_GrantVideo_Final_2_4_sd7dcv'] 
+    const ranImages = Math.floor(Math.random() * gifImages.length);
+    const elem = document.getElementById('hero');
+    elem.style.backgroundImage = `url('${pathUrl}${gifImages[ranImages]}')`;
+    elem.setAttribute("href", "google.com");
 });
+
+//https://res.cloudinary.com/dwbs6mbsy/image/upload/v1683084619/gdna/backgroundImages/play-button-icon-png-18910_kvhki0.png
+//http://res.cloudinary.com/dwbs6mbsy/image/upload/h_100,l_gdna:backgroundImages:play-button-icon-png-18910_kvhki0,w_100/v1/gdna/backgroundImages/G-DNA_GrantVideo_Final_2_2_plnw0t

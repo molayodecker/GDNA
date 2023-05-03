@@ -1,6 +1,9 @@
 <?php get_header() ?>
   <!-- Hero Section-->
-  <section id="hero" style="background-image: linear-gradient(to bottom, rgba(99, 212, 113, 0.52), rgba(35, 51, 41, 0.80)), url('https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/backgroundImages/a2kl4rmtyoq69ormsn5a'); background-size: cover; background-position: center center !important;">
+  <!-- <section id="hero" style="background-image: linear-gradient(to bottom, rgba(99, 212, 113, 0.52), rgba(35, 51, 41, 0.80)), url('https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/backgroundImages/a2kl4rmtyoq69ormsn5a'); background-size: cover; background-position: center center !important;"> -->
+  <?php echo do_shortcode('[wp-video-popup video="https://www.youtube.com/watch?v=H1ZWyQD1l9U"]'); ?>
+  <a href="#" class="wp-video-popup">
+  <section id="hero" style="background-image: url('https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/backgroundImages/G-DNA_GrantVideo_Final_2_2_plnw0t'); background-size: cover; background-position: center center !important;">
     <div class="container max-w-none flex justify-evenly flex-wrap align-center text-center">
         <div>
           <h1 class="hero-title">
@@ -18,7 +21,8 @@
           <a href="https://g-dna.org/index.php/membership/" class="hero-join">Join Now</a>
         </div>
     </div>
-  </section>
+  </section>  
+  </a>
   <section id="news" style="background-image: linear-gradient(to bottom, rgba(254, 243, 199, 0.52), rgba(252, 211, 77, 0.80)), url('https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/backgroundImages/kcfd161zbdgfpbdrx8lo'); background-size: cover; background-position: center center !important;">
     <div class="flex flex-col justify-evenly flex-wrap align-center py-6">
       <div id="news-container" class="news-container">
