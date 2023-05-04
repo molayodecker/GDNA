@@ -97,7 +97,7 @@ Author URL: molayodecker.com
     /* background-size: cover; 
     background-position: center center !important; */
     margin-top: 43px;
-    @apply hidden xs:block md:hidden lg:hidden lx:hidden;
+    @apply hidden xs:block md:hidden lg:hidden xl:hidden;
   }
 
   .from-hero-gradient {

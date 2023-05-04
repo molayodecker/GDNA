@@ -675,6 +675,24 @@ img {
   }
 }
 
+@media (min-width: 668px) and (max-width: 767px),(min-width: 868px) {
+  .hero-video-smaller {
+    display: none;
+  }
+}
+
+@media (min-width: 1100px) {
+  .hero-video-smaller {
+    display: none;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 7680px) {
+  .hero-video-smaller {
+    display: none;
+  }
+}
+
 .logo {
   display: none;
   width: 4rem;
