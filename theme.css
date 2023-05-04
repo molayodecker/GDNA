@@ -83,6 +83,23 @@ Author URL: molayodecker.com
     max-height: 720px;
   }
 
+  .hero-video-large {
+    position: relative; 
+    top: 0;
+    @apply hidden lg:block;
+  }
+
+  .hero-video-smaller {
+    /* background-image: url('https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/backgroundImages/G-DNA_GrantVideo_Final_2_2_plnw0t') !important; */
+    /* background-size: cover !important;
+    background-position: center center !important;
+    background-image: linear-gradient(to bottom, rgba(99, 212, 113, 0.52), rgba(35, 51, 41, 0.80)), url('https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/backgroundImages/a2kl4rmtyoq69ormsn5a');  */
+    /* background-size: cover; 
+    background-position: center center !important; */
+    margin-top: 43px;
+    @apply hidden xs:block;
+  }
+
   .from-hero-gradient {
     --tw-gradient-from: #63d471;
     --tw-gradient-to: rgb(35, 51, 41);
