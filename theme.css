@@ -61,6 +61,7 @@ Author URL: molayodecker.com
     opacity: 1;
     transform: translateY(0);
     pointer-events: auto;
+    z-index: 9999;
   }
 
   .information-grid {

@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const ranImages = Math.floor(Math.random() * gifImages.length);
     const elem = document.getElementById('hero_smaller');
     elem.style.backgroundImage = `url('${pathUrl}${gifImages[ranImages]}')`;
-    console.log(elem.style.backgroundImage);
-    console.log(elem)
+    // console.log(elem.style.backgroundImage);
+    // console.log(elem)
     // elem.setAttribute("href", "google.com");
 });
 
