@@ -9,7 +9,7 @@
     <video width="100%" height="100%" loop="loop" autoplay="autoplay" preload="auto" poster="https://res.cloudinary.com/dwbs6mbsy/video/upload/h_300,l_gdna:backgroundImages:play-button-icon-png-18910_kvhki0,w_300/w_600/f_auto:animated/e_loop/v1683128623/gdna/backgroundImages/ylrhnduildfm0hsb0aks.mp4">
       <source src="https://res.cloudinary.com/dwbs6mbsy/video/upload/h_300,l_gdna:backgroundImages:play-button-icon-png-18910_kvhki0,w_300/v1683133652/gdna/backgroundImages/ylrhnduildfm0hsb0aks.mp4" type="video/mp4" />
     </video>
-    <div class="container max-w-none flex justify-evenly flex-wrap align-center text-center" style="position: absolute; top: 0; margin-top: 600px">
+    <div class="container max-w-none flex justify-evenly flex-wrap align-center text-center" style="position: absolute; top: 0;">
         <div>
           <h1 class="hero-title">
             <?php
