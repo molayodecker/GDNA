@@ -666,12 +666,12 @@ img {
   /* background-size: cover; 
     background-position: center center !important; */
   margin-top: 43px;
-  display: block;
+  display: none;
 }
 
 @media (min-width: 360px) {
   .hero-video-smaller {
-    display: none;
+    display: block;
   }
 }
 
