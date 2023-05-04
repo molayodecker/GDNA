@@ -27,7 +27,7 @@
                 )
             ); ?>
             <div class="w-full py-3 text-center">
-                <a href="#features" class="block hover:text-softRed">Donate</a>
+                <a target="_blank" href="https://buy.stripe.com/8wMbIWgbWeY7b1SdQQ" class="block hover:text-softRed">Donate</a>
             </div>
         </div>
         </button>
