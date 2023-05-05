@@ -498,3 +498,18 @@ Author URL: molayodecker.com
   @apply rounded-full bg-green-700 !important;
 }
 
+.tnp-subscription-minimal input.tnp-submit {
+  -webkit-appearance: button !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  cursor: pointer !important;
+  border-color: #ffffff !important;
+  border-radius: 0.25rem !important;
+}
+
+.tnp-email {
+  background-color: transparent !important;
+  border-radius: 0.25rem !important;
+  color: #ffffff !important;
+}
+

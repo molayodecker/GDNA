@@ -9,7 +9,7 @@
     <video width="100%" height="100%" loop="loop" autoplay="autoplay" preload="auto" poster="https://res.cloudinary.com/dwbs6mbsy/video/upload/h_300,l_gdna:backgroundImages:play-button-icon-png-18910_kvhki0,w_300/w_600/f_auto:animated/e_loop/v1683128623/gdna/backgroundImages/ylrhnduildfm0hsb0aks.mp4">
       <source src="https://res.cloudinary.com/dwbs6mbsy/video/upload/h_300,l_gdna:backgroundImages:play-button-icon-png-18910_kvhki0,w_300/v1683133652/gdna/backgroundImages/ylrhnduildfm0hsb0aks.mp4" type="video/mp4" />
     </video>
-    <div class="container max-w-none flex justify-evenly flex-wrap align-center text-center" style="position: absolute; top: 0;">
+    <div class="container max-w-none flex justify-evenly flex-wrap flex-col align-center text-center" style="position: absolute; top: 0;">
         <div>
           <h1 class="hero-title">
             <?php
@@ -31,7 +31,7 @@
   <a href="#" class="wp-video-popup"> 
   <section id="hero_smaller" class="hero-video-smaller" style="background-image: url('https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/backgroundImages/G-DNA_GrantVideo_Final_2_2_plnw0t'); background-size: cover; background-position: center center !important;">
   <!--NOTE: use video only when needed. This show be converted into a plugin in future-->
-    <div class="container max-w-none flex justify-evenly flex-wrap align-center text-center">
+    <div class="container max-w-none flex flex-col justify-evenly flex-wrap align-center text-center">
         <div>
           <h1 class="hero-title">
             <?php
