@@ -6,10 +6,10 @@
   <!-- <section id="hero" style="background-image: url('https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/backgroundImages/G-DNA_GrantVideo_Final_2_2_plnw0t'); background-size: cover; background-position: center center !important;"> -->
   <section id="hero" class="hero-video-large">
   <!--NOTE: use video only when needed. This show be converted into a plugin in future-->
+    <div class="container max-w-none flex justify-evenly flex-wrap flex-col align-center text-center container-video">
     <video width="100%" height="100%" loop="loop" autoplay="autoplay" preload="auto" poster="https://res.cloudinary.com/dwbs6mbsy/video/upload/h_300,l_gdna:backgroundImages:play-button-icon-png-18910_kvhki0,w_300/w_600/f_auto:animated/e_loop/v1683128623/gdna/backgroundImages/ylrhnduildfm0hsb0aks.mp4">
       <source src="https://res.cloudinary.com/dwbs6mbsy/video/upload/h_300,l_gdna:backgroundImages:play-button-icon-png-18910_kvhki0,w_300/v1683133652/gdna/backgroundImages/ylrhnduildfm0hsb0aks.mp4" type="video/mp4" />
     </video>
-    <div class="container max-w-none flex justify-evenly flex-wrap flex-col align-center text-center" style="position: absolute; top: 400px;">
         <div>
           <h1 class="hero-title">
             <?php
@@ -50,8 +50,8 @@
     </div>
   </section>  
   </a>
-  <section id="news" style="background-image: linear-gradient(to bottom, rgba(254, 243, 199, 0.52), rgba(252, 211, 77, 0.80)), url('https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/backgroundImages/kcfd161zbdgfpbdrx8lo'); background-size: cover; background-position: center center !important;">
-    <div class="flex flex-col justify-evenly flex-wrap align-center py-6">
+  <section id="news" style="background-image: linear-gradient(to bottom, rgba(254, 243, 199, 0.52), rgba(252, 211, 77, 0.80)), url('https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/backgroundImages/kcfd161zbdgfpbdrx8lo'); background-size: cover; background-position: center center !important; z-index: 100; position: relative; top: 0;">
+    <div class="flex flex-col justify-evenly flex-wrap align-center py-6 mt-[-90px]">
       <div id="news-container" class="news-container">
         <div class="news-title">Latest GDNA News</div>
         <div class="px-10 space-y-5">

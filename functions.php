@@ -115,7 +115,6 @@ function events($atts, $contents=null) {
     );
 
     $data = shortcode_atts($default, $atts);
-    var_dump($data);
     locate_template(require('inc/events_wp_template.php'), true, true, $data);
 }
 add_shortcode('g-dna-events', 'events');
