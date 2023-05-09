@@ -22,9 +22,9 @@
             ?>
           </h1>
         </div>
-        <div class="my-16">
+        <!-- <div class="my-16">
           <a href="https://g-dna.org/index.php/membership/" class="hero-join">Join Now</a>
-        </div>
+        </div> --> 
     </div>
   </section>
   </a> 
