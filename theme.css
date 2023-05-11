@@ -219,6 +219,10 @@ Author URL: molayodecker.com
     @apply text-center bg-[#EAB308] py-2 text-lg lg:py-6;
   }
 
+  .upcoming-event {
+    @apply text-center bg-green-800 text-white py-1 text-lg lg:py-3;
+  }
+
   .animate_logo {
     animation-name: animate_bg;
     animation-duration: 4s;

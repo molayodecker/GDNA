@@ -75,6 +75,22 @@
     </div>
   </section>
   <section>
+  <div id="#upcoming-event" class="upcoming-event">Upcoming Events</div>
+  <div class="divide-y-4 divide-green-800 px-10">
+    <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; padding-top: 20px; padding-bottom: 20px;">
+      <div style="color: #7229D1; font-weight: Semi-Bold"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSf9i-IqNuqQYaHoVmK2vvtQANpMViff8XcpU0mRsmkiTx_X7A/viewform">GDNA INFO Session</a></div>
+      <div>May 20, 2023</div>
+      <div>Virtual</div>
+    </div>
+    <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; padding-top: 20px; padding-bottom: 20px;">
+      <div style="color: #7229D1; font-weight: Semi-Bold"><a target="_blank" href="https://docs.google.com/forms/d/1nxyELZoYljwAk2N8N5QQAxrYy70QBXWqbL41bX2Db30/viewform">GDNA UK Meet and Mingle</a></div>
+      <div style="margin-left: -5px">June 3, 2023</div>
+      <div>In Person</div>
+    </div>
+
+</div>
+  </section>
+  <section>
     <section>
     <h4>Join a thriving community.</h4>
       <!--photo grid-->
