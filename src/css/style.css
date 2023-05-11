@@ -1318,16 +1318,9 @@ article {
 
 @media (min-width: 360px) {
   .mobile-nav-with-action-bar {
+    z-index: 100;
     display: block;
   }
-}
-
-.mobile-nav-without-action-bar {
-  top: 0;
-  position: fixed;
-  width: 100%;
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .logo-avatar-with-action-bar {

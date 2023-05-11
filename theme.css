@@ -444,7 +444,7 @@ Author URL: molayodecker.com
 
 .mobile-nav-with-action-bar {
   top: 170px;
-  @apply fixed w-full hidden xs:block;
+  @apply fixed w-full hidden xs:block xs:z-[100];
 }
 
 .mobile-nav-without-action-bar {

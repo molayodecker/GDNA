@@ -1,4 +1,4 @@
-<?php if(strtotime('2023-05-12') > time()): ?>
+<?php if(strtotime('2023-05-11') > time()): ?>
 <div class="action-bar" style="dislay: flex; text-align: center; background-color: rgb(242,67,24); color: #fff; padding: 7px; z-index: 100">
     <strong style="font-size: 20px;">International Nurses Day 2023 Webinar</strong>
     <small style="padding: 0 0 0 0.43rem; font-size: 15px;">Thursday May 11TH @ 2PM EDT | 6PM GMT | 7PM BST</small>
@@ -9,7 +9,7 @@
     </span>
 </div>
 <?php endif; ?>
-<div <?php echo (strtotime('2023-05-11') > time()) ? 'class="mobile-nav-with-action-bar"' : 'class="mobile-nav-without-action-bar"' ?> >
+<div  class="mobile-nav-with-action-bar">
     <div>
         <button id="menu-btn" class="z-50 block md:hidden focus:outline-none hamburger">
         <span class="hamburger-top"></span>
