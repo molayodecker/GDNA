@@ -44,13 +44,13 @@
             ?>
           </h1>
         </div>
-        <div class="my-16">
-          <a href="https://g-dna.org/index.php/membership/" class="hero-join">Join Now</a>
+        <div class="hero-join-container">
+          <!-- <a href="https://g-dna.org/index.php/membership/" class="hero-join">Join Now</a> -->
         </div>
     </div>
   </section>  
   </a>
-  <section id="news" style="background-image: linear-gradient(to bottom, rgba(254, 243, 199, 0.52), rgba(252, 211, 77, 0.80)), url('https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/backgroundImages/kcfd161zbdgfpbdrx8lo'); background-size: cover; background-position: center center !important; z-index: 100; position: relative; top: 0;">
+  <section id="news" class="new-section" style="background-image: linear-gradient(to bottom, rgba(254, 243, 199, 0.52), rgba(252, 211, 77, 0.80)), url('https://res.cloudinary.com/dwbs6mbsy/image/upload/gdna/backgroundImages/kcfd161zbdgfpbdrx8lo'); background-size: cover; background-position: center center !important; z-index: 50; position: relative; top: 0;">
     <div class="flex flex-col justify-evenly flex-wrap align-center py-6 mt-[-90px]">
       <div id="news-container" class="news-container">
         <div class="news-title">Latest GDNA News</div>

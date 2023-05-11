@@ -603,7 +603,7 @@ img {
 }
 
 .dropdown {
-  color: #ffffff;
+  color: #000;
   position: relative;
 }
 
@@ -696,6 +696,10 @@ img {
   }
 }
 
+.new-section {
+  margin-top: 90px !important;
+}
+
 .logo {
   display: none;
   width: 4rem;
@@ -708,9 +712,11 @@ img {
 }
 
 .flex-container-nav-items {
+  background-color: 	rgb(255,255,255, 0.5);
+  border-radius: 2px;
   position: fixed;
   z-index: 100;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -722,10 +728,15 @@ img {
   margin-left: calc(5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.flex-container-nav-items {
+  padding-right: 1rem;
+}
+
 .hero-title {
   display: flex;
   top: 0;
   left: 0;
+  bottom: 0;
   justify-content: center;
   position: absolute;
   width: 100%;
@@ -767,6 +778,25 @@ img {
   display: flex;
 }
 
+.hero-join-container {
+  margin-top: 4rem !important;
+  margin-bottom: 4rem !important;
+}
+
+@media (min-width: 360px) {
+  .hero-join-container {
+    margin-top: 16rem !important;
+    margin-bottom: 16rem !important;
+  }
+}
+
+@media (min-width: 500px) {
+  .hero-join-container {
+    margin-top: 16rem !important;
+    margin-bottom: 16rem !important;
+  }
+}
+
 .hero-join {
   font-weight: 700;
   border-radius: 9999px;
@@ -789,6 +819,20 @@ img {
 .hero-join:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(248 76 76 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 360px) {
+  .hero-join {
+    padding: 0px;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .hero-join {
+    padding: 0px;
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 1100px) {
@@ -1409,11 +1453,6 @@ article {
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-
-.my-24 {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
 }
 
 .my-4 {

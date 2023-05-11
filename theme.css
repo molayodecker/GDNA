@@ -36,7 +36,7 @@ Author URL: molayodecker.com
   }
 
   .dropdown {
-    color: #ffffff;
+    color: #000;
     position: relative;
   }
 
@@ -103,6 +103,10 @@ Author URL: molayodecker.com
     @apply hidden xs:block md:hidden lg:hidden xl:hidden;
   }
 
+  .new-section {
+    margin-top: 90px !important;
+  }
+
   .from-hero-gradient {
     --tw-gradient-from: #63d471;
     --tw-gradient-to: rgb(35, 51, 41);
@@ -120,15 +124,18 @@ Author URL: molayodecker.com
   }
 
   .flex-container-nav-items {
+    background-color: 	rgb(255,255,255, 0.5);
+    border-radius: 2px;
     position: fixed;
     z-index: 100;
-    @apply flex items-center justify-between space-x-20 mt-6;
+    @apply flex items-center justify-between space-x-20 mt-8 pr-4;
   }
 
   .hero-title {
     display: flex;
     top: 0;
     left: 0;
+    bottom: 0;
     justify-content: center;
     position: absolute;
     width: 100%;
@@ -158,9 +165,13 @@ Author URL: molayodecker.com
       overflow-x-hidden;
   }
 
+  .hero-join-container {
+    @apply my-16 sm:my-[16rem] xs:my-[16rem] !important;
+  }
+
   .hero-join {
     font-weight: 700;
-    @apply lg:px-10 lg:py-2 lg:text-xl text-2xl px-5 py-1 text-center text-white bg-[#de2f3d] rounded-full shadow-md hover:bg-[#f84c4c];
+    @apply lg:px-10 lg:py-2 lg:text-xl text-2xl px-5 py-1 text-center text-white bg-[#de2f3d] rounded-full shadow-md hover:bg-[#f84c4c] sm:p-0 xs:p-0 sm:text-[1rem] xs:text-[1rem];
   }
 
   .news-container {
